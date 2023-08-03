@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/migration-dashboard/migration-dashboard@sha256:3fe1a2fb37f0e1632c61009eea05d56ccf300fbe44bbe246e161088b22cee53f
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/migration-dashboard/migration-dashboard@sha256:0bb73755714c6d0417d3047a9419c48c75e4108f044ae6dcf16ba236c6c5e73d
         name: container-image
         resources: {}
 status: {}
