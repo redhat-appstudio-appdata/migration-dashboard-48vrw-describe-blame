@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: migration-dashboard
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/migration-dashboard/migration-dashboard@sha256:ed931e32538f96b05b6bdf5dd05c878df58305976a6ed55cb7848fc06c1e3bb9
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/migration-dashboard/migration-dashboard@sha256:10644c91d8fac9d4f9c0362565902a1f04782fa085155b70f3648e519eb4df1e
         imagePullPolicy: Always
         name: container-image
         resources:
